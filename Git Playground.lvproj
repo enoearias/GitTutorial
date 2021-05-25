@@ -11,13 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Pablo Cesar Module" Type="Folder">
-			<Item Name="Pablo Cesar.lvlib" Type="Library" URL="../Libraries/Pablo Cesar/Pablo Cesar.lvlib"/>
+		<Item Name="Isaac Module" Type="Folder">
+			<Item Name="Isaac.lvlib" Type="Library" URL="../Libraries/Isaac/Isaac.lvlib"/>
 		</Item>
 		<Item Name="UI Module" Type="Folder">
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
-		<Item Name="Test Pablo Cesar API.vi" Type="VI" URL="../Libraries/Pablo Cesar/Test Pablo Cesar API.vi"/>
+		<Item Name="Test Isaac API.vi" Type="VI" URL="../Libraries/Isaac/Test Isaac API.vi"/>
 		<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
