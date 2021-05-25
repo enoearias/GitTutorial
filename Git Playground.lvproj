@@ -14,10 +14,14 @@
 		<Item Name="Isaac Module" Type="Folder">
 			<Item Name="Isaac.lvlib" Type="Library" URL="../Libraries/Isaac/Isaac.lvlib"/>
 		</Item>
+		<Item Name="Joshua Module" Type="Folder">
+			<Item Name="Joshua.lvlib" Type="Library" URL="../Libraries/Joshua/Joshua.lvlib"/>
+		</Item>
 		<Item Name="UI Module" Type="Folder">
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Test Isaac API.vi" Type="VI" URL="../Libraries/Isaac/Test Isaac API.vi"/>
+		<Item Name="Test Joshua API.vi" Type="VI" URL="../Libraries/Joshua/Test Joshua API.vi"/>
 		<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
