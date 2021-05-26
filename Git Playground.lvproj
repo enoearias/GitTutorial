@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="modules" Type="Folder">
-			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
+			<Item Name="Alejandro.lvlib" Type="Library" URL="../Libraries/Alejandro/Alejandro.lvlib"/>
 			<Item Name="Enrique.lvlib" Type="Library" URL="../Libraries/Enrique/Enrique.lvlib"/>
 			<Item Name="Isaac.lvlib" Type="Library" URL="../Libraries/Isaac/Isaac.lvlib"/>
 			<Item Name="Joshua.lvlib" Type="Library" URL="../Libraries/Joshua/Joshua.lvlib"/>
@@ -20,7 +20,7 @@
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="testers" Type="Folder">
-			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
+			<Item Name="Test Alejandro API.vi" Type="VI" URL="../Libraries/Alejandro/Test Alejandro API.vi"/>
 			<Item Name="Test Enrique API.vi" Type="VI" URL="../Libraries/Enrique/Test Enrique API.vi"/>
 			<Item Name="Test Isaac API.vi" Type="VI" URL="../Libraries/Isaac/Test Isaac API.vi"/>
 			<Item Name="Test Joshua API.vi" Type="VI" URL="../Libraries/Joshua/Test Joshua API.vi"/>
