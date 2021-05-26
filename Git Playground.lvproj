@@ -12,14 +12,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="modules" Type="Folder">
-			<Item Name="Alejandro.lvlib" Type="Library" URL="../Libraries/Alejandro/Alejandro.lvlib"/>
+			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
 			<Item Name="Config.lvlib" Type="Library" URL="../Libraries/Config/Config.lvlib"/>
 			<Item Name="DataBase.lvlib" Type="Library" URL="../Libraries/DataBase/DataBase.lvlib"/>
 			<Item Name="Enrique.lvlib" Type="Library" URL="../Libraries/Enrique/Enrique.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="testers" Type="Folder">
-			<Item Name="Test Alejandro API.vi" Type="VI" URL="../Libraries/Alejandro/Test Alejandro API.vi"/>
+			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
 			<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
 			<Item Name="Test DataBase API.vi" Type="VI" URL="../Libraries/DataBase/Test DataBase API.vi"/>
 			<Item Name="Test Enrique API.vi" Type="VI" URL="../Libraries/Enrique/Test Enrique API.vi"/>
