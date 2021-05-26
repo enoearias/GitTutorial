@@ -13,18 +13,16 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="modules" Type="Folder">
 			<Item Name="Alejandro.lvlib" Type="Library" URL="../Libraries/Alejandro/Alejandro.lvlib"/>
+			<Item Name="Config.lvlib" Type="Library" URL="../Libraries/Config/Config.lvlib"/>
+			<Item Name="DataBase.lvlib" Type="Library" URL="../Libraries/DataBase/DataBase.lvlib"/>
 			<Item Name="Enrique.lvlib" Type="Library" URL="../Libraries/Enrique/Enrique.lvlib"/>
-			<Item Name="Isaac.lvlib" Type="Library" URL="../Libraries/Isaac/Isaac.lvlib"/>
-			<Item Name="Joshua.lvlib" Type="Library" URL="../Libraries/Joshua/Joshua.lvlib"/>
-			<Item Name="Pablo Cesar.lvlib" Type="Library" URL="../Libraries/Pablo Cesar/Pablo Cesar.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="testers" Type="Folder">
 			<Item Name="Test Alejandro API.vi" Type="VI" URL="../Libraries/Alejandro/Test Alejandro API.vi"/>
+			<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
+			<Item Name="Test DataBase API.vi" Type="VI" URL="../Libraries/DataBase/Test DataBase API.vi"/>
 			<Item Name="Test Enrique API.vi" Type="VI" URL="../Libraries/Enrique/Test Enrique API.vi"/>
-			<Item Name="Test Isaac API.vi" Type="VI" URL="../Libraries/Isaac/Test Isaac API.vi"/>
-			<Item Name="Test Joshua API.vi" Type="VI" URL="../Libraries/Joshua/Test Joshua API.vi"/>
-			<Item Name="Test Pablo Cesar API.vi" Type="VI" URL="../Libraries/Pablo Cesar/Test Pablo Cesar API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
