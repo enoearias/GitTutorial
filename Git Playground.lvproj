@@ -15,14 +15,12 @@
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
 			<Item Name="Config.lvlib" Type="Library" URL="../Libraries/Config/Config.lvlib"/>
 			<Item Name="DataBase.lvlib" Type="Library" URL="../Libraries/DataBase/DataBase.lvlib"/>
-			<Item Name="Enrique.lvlib" Type="Library" URL="../Libraries/Enrique/Enrique.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="testers" Type="Folder">
 			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
 			<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
 			<Item Name="Test DataBase API.vi" Type="VI" URL="../Libraries/DataBase/Test DataBase API.vi"/>
-			<Item Name="Test Enrique API.vi" Type="VI" URL="../Libraries/Enrique/Test Enrique API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="SignalConfig--cluster.ctl" Type="VI" URL="../Libraries/Acquisition/SignalConfig--cluster.ctl"/>
@@ -85,6 +83,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Settings.ctl" Type="VI" URL="../Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
