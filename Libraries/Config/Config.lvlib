@@ -18,11 +18,17 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Save Config Argument--cluster.ctl" Type="VI" URL="../Save Config Argument--cluster.ctl"/>
+				<Item Name="Cancel config Argument--cluster.ctl" Type="VI" URL="../Cancel config Argument--cluster.ctl"/>
+				<Item Name="Load Config Argument--cluster.ctl" Type="VI" URL="../Load Config Argument--cluster.ctl"/>
+				<Item Name="Load Config (Reply Payload)--cluster.ctl" Type="VI" URL="../Load Config (Reply Payload)--cluster.ctl"/>
+				<Item Name="Config Loaded from DB Argument--cluster.ctl" Type="VI" URL="../Config Loaded from DB Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Config has been set Argument--cluster.ctl" Type="VI" URL="../Config has been set Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -31,7 +37,12 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Save Config.vi" Type="VI" URL="../Save Config.vi"/>
+			<Item Name="Cancel config.vi" Type="VI" URL="../Cancel config.vi"/>
+			<Item Name="Load Config.vi" Type="VI" URL="../Load Config.vi"/>
+			<Item Name="Config Loaded from DB.vi" Type="VI" URL="../Config Loaded from DB.vi"/>
 		</Item>
+		<Item Name="sim signal -- cluster.ctl" Type="VI" URL="../sim signal -- cluster.ctl"/>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
@@ -47,6 +58,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Config has been set.vi" Type="VI" URL="../Config has been set.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
