@@ -18,9 +18,12 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Fetch Data Argument--cluster.ctl" Type="VI" URL="../Fetch Data Argument--cluster.ctl"/>
+				<Item Name="Fetch Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Fetch Data (Reply Payload)--cluster.ctl"/>
 				<Item Name="Save config Argument--cluster.ctl" Type="VI" URL="../Save config Argument--cluster.ctl"/>
-				<Item Name="Load Config Argument--cluster.ctl" Type="VI" URL="../Load Config Argument--cluster.ctl"/>
-				<Item Name="Load Config (Reply Payload)--cluster.ctl" Type="VI" URL="../Load Config (Reply Payload)--cluster.ctl"/>
+				<Item Name="Save Signal Config Argument--cluster.ctl" Type="VI" URL="../Save Signal Config Argument--cluster.ctl"/>
+				<Item Name="Read Config From DB Argument--cluster.ctl" Type="VI" URL="../Read Config From DB Argument--cluster.ctl"/>
+				<Item Name="Read Config From DB (Reply Payload)--cluster.ctl" Type="VI" URL="../Read Config From DB (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -34,8 +37,9 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Save config.vi" Type="VI" URL="../Save config.vi"/>
-			<Item Name="Load Config.vi" Type="VI" URL="../Load Config.vi"/>
+			<Item Name="Fetch Data.vi" Type="VI" URL="../Fetch Data.vi"/>
+			<Item Name="Save Signal Config.vi" Type="VI" URL="../Save Signal Config.vi"/>
+			<Item Name="Read Config From DB.vi" Type="VI" URL="../Read Config From DB.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -83,6 +87,17 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="DB" Type="Folder">
+		<Item Name="Time To String.vi" Type="VI" URL="../DB/Time To String.vi"/>
+		<Item Name="DB Path.vi" Type="VI" URL="../DB/DB Path.vi"/>
+		<Item Name="Create Table Config.vi" Type="VI" URL="../DB/Create Table Config.vi"/>
+		<Item Name="Update Config.vi" Type="VI" URL="../DB/Update Config.vi"/>
+		<Item Name="Read Config.vi" Type="VI" URL="../DB/Read Config.vi"/>
+		<Item Name="Tipo de señal.vi" Type="VI" URL="../DB/Tipo de señal.vi"/>
+		<Item Name="Save Config.vi" Type="VI" URL="../DB/Save Config.vi"/>
+		<Item Name="Save Frecuency.vi" Type="VI" URL="../DB/Save Frecuency.vi"/>
+		<Item Name="Fetch Data From DB.vi" Type="VI" URL="../DB/Fetch Data From DB.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
